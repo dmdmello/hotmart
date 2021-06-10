@@ -1,0 +1,9 @@
+This report consists of 3 main jupyter notebooks, each one containing detailed explanations regarding their results: 
+
+1) GeneralStatistics.ipynb: where we perform an exploratory data analysis and try to find interesting data patterns with different plots of the dataset
+
+2) UserClusterAnalysis.ipynb: where we use KMEANS clustering algorithm to find interest user cluster patterns
+
+3) ProductPredictions.ipynb: where we use XGBoost to try to predict the purchase value and the purchase count of each product given the other available attributes
+
+Each notebook uses a sales_table.csv file that was obtained from an export of the sales table that was provided in mysql workbench to .csv file. This .csv file has approx 250 MB and it's available in the same google drive folder as this description. It's also available to download at https://drive.google.com/file/d/1ZkwMX9ZqhWMpZVcGDj0nnLB274njervA/view?usp=sharing.
